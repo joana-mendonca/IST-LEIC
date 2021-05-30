@@ -1,6 +1,6 @@
-# IAED1819
-Repo for IAED1819
+# IAED
+Repository for IAED
 
 **DISCLAIMER** 
->This is the base repository of IAED provided by teachers.
+>This is the base repository for IAED provided by the professor.
 >My project wasn't added in this repository due to loss during drive formatting.
