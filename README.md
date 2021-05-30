@@ -2,7 +2,7 @@
 Projects made for subjects in my Bachelor of Computer Science and Engineering at Instituto Superior Técnico, Taguspark.
 
 ### 1st Year
-* [FP - Fundamentos da Programação / Foundations of Programming (Python)](1st_Year/FP)
+* [FP - Fundamentos da Programação / Foundations of Programming (Python)](https://github.com/J04N4/IST-LEIC/tree/main/1st_year/FP)
 * [IAC - Introdução à Arquitectura de Computadores / Introduction to Computer Architecture (Assembly)](1st_Year/IAC)
 * [LP - Lógica para Programação / Logic for Programming (Prolog)](1st_Year/LP)
 * [IAED - Introdução aos Algoritmos e Estruturas de Dados / Introduction to Algorithms and Data Structures (C)](1st_Year/IAED)
