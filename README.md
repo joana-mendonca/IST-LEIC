@@ -10,7 +10,7 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 ### 2nd Year
 * [SO - Sistemas Operativos / Operating Systems (C)](2nd_Year/SO)
 * [PO - Programação com Objectos / Object-Oriented Programming (Java)](2nd_Year/PO)
-* [ASA - Análise e Sintese de Algoritmos / Analysis and Synthesis of Algorithms (C++)](https://github.com/J04N4/IST-LEIC/tree/main/1st_year/ASA)
+* [ASA - Análise e Sintese de Algoritmos / Analysis and Synthesis of Algorithms (C++)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/ASA)
 * [IPM - Interfaces Pessoa Máquina / Human-Computer Interaction (HTML/CSS/JS)](2nd_Year/IPM)
 
 ### 3rd Year
@@ -19,6 +19,6 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 * [IA - Inteligência Artificial / Artificial Intelligence (Common Lisp)](3rd_Year/IA)
 * [RC - Redes e Computadores / Computer Networks (C)](3rd_Year/RC)
 * [AMS - Análise e Modelação de Sistemas / Systems Analysis and Modeling (MySQL)](3rd_Year/AMS)
-* [Comp - Compiladores / Compilers (C++)](https://github.com/J04N4/IST-LEIC/tree/main/1st_year/COMP)
+* [Comp - Compiladores / Compilers (C++)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/COMP)
 * [SD - Sistemas Distribuidos / Distributed Systems (Java)](3rd_Year/SD)
 * [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/SD)
