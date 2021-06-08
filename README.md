@@ -9,16 +9,16 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 
 ### 2nd Year
 * [SO - Sistemas Operativos / Operating Systems (C)](2nd_Year/SO)
-* [PO - Programação com Objectos / Object-Oriented Programming (Java)](2nd_Year/PO)
+* [PO - Programação com Objectos / Object-Oriented Programming (Java)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/PO/ProjetoPO-master/)
 * [ASA - Análise e Sintese de Algoritmos / Analysis and Synthesis of Algorithms (C++)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/ASA)
-* [IPM - Interfaces Pessoa Máquina / Human-Computer Interaction (HTML/CSS/JS)](2nd_Year/IPM)
+* [IPM - Interfaces Pessoa Máquina / Human-Computer Interaction (HTML/CSS/JS)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/IPM)
 
 ### 3rd Year
-* [BD - Bases de Dados / Databases (SQL/PHP)](3rd_Year/BD)
-* [CG - Computação Gráfica / Computer Graphics (JavaScript)](3rd_Year/CG)
-* [IA - Inteligência Artificial / Artificial Intelligence (Common Lisp)](3rd_Year/IA)
-* [RC - Redes e Computadores / Computer Networks (C)](3rd_Year/RC)
-* [AMS - Análise e Modelação de Sistemas / Systems Analysis and Modeling (MySQL)](3rd_Year/AMS)
+* [BD - Bases de Dados / Databases (SQL/PHP)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/BD)
+* [CG - Computação Gráfica / Computer Graphics (JavaScript)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/CG)
+* [IA - Inteligência Artificial / Artificial Intelligence (Common Lisp)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/IA)
+* [RC - Redes e Computadores / Computer Networks (C)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/RC)
+* [AMS - Análise e Modelação de Sistemas / Systems Analysis and Modeling (MySQL)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/AMS)
 * [Comp - Compiladores / Compilers (C++)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/COMP)
 * [SD - Sistemas Distribuidos / Distributed Systems (Java)](3rd_Year/SD)
-* [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/SD)
+* [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/ES)
