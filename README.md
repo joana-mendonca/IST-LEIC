@@ -8,7 +8,7 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 * [IAED - Introdução aos Algoritmos e Estruturas de Dados / Introduction to Algorithms and Data Structures (C)](https://github.com/J04N4/IST-LEIC/tree/main/1st_year/IAED)
 
 ### 2nd Year
-* [SO - Sistemas Operativos / Operating Systems (C)](2nd_Year/SO)
+< * [SO - Sistemas Operativos / Operating Systems (C)](2nd_Year/SO)>
 * [PO - Programação com Objectos / Object-Oriented Programming (Java)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/PO/ProjetoPO-master/)
 * [ASA - Análise e Sintese de Algoritmos / Analysis and Synthesis of Algorithms (C++)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/ASA)
 * [IPM - Interfaces Pessoa Máquina / Human-Computer Interaction (HTML/CSS/JS)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/IPM/iGo/)
@@ -20,5 +20,5 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 * [RC - Redes e Computadores / Computer Networks (C)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/RC)
 * [AMS - Análise e Modelação de Sistemas / Systems Analysis and Modeling (MySQL)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/AMS)
 * [Comp - Compiladores / Compilers (C++)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/COMP)
-* [SD - Sistemas Distribuidos / Distributed Systems (Java)](3rd_Year/SD)
-* [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/ES)
+<* [SD - Sistemas Distribuidos / Distributed Systems (Java)](3rd_Year/SD)>
+<* [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/ES)>
