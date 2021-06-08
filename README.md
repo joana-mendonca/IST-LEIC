@@ -14,11 +14,12 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 * [IPM - Interfaces Pessoa Máquina / Human-Computer Interaction (HTML/CSS/JS)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/IPM/iGo/)
 
 ### 3rd Year
+[comment]: < * [SD - Sistemas Distribuidos / Distributed Systems (Java)](3rd_Year/SD) >
+[comment]: < * [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/ES) >
 * [BD - Bases de Dados / Databases (SQL/PHP)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/BD)
 * [CG - Computação Gráfica / Computer Graphics (JavaScript)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/CG)
 * [IA - Inteligência Artificial / Artificial Intelligence (Common Lisp)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/IA)
 * [RC - Redes e Computadores / Computer Networks (C)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/RC)
 * [AMS - Análise e Modelação de Sistemas / Systems Analysis and Modeling (MySQL)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/AMS)
 * [Comp - Compiladores / Compilers (C++)](https://github.com/J04N4/IST-LEIC/tree/main/3rd_year/COMP)
-[comment]: < * [SD - Sistemas Distribuidos / Distributed Systems (Java)](3rd_Year/SD) >
-[comment]: < * [ES - Engenharia de Software / Software Engineering (Java)](3rd_Year/ES) >
+
