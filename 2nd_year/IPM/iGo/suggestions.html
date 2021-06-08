@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="suggestions-style.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="dark-mode.css">
+    <link rel="stylesheet" type="text/css" href="scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="ubuntu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="suggestions-js.js"></script>
+    <script type="text/javascript" src="common.js"></script>
+    <script type="text/javascript">loadColorScheme();</script>
+    <title>MySuggestions :: iGo</title>
+  </head>
+  <style type="text/css"></style>
+  <body onload="loadStuff()">
+    <div id="main-frame">
+      <div id="top-bar">
+        <button class="fa inactive" id="top-back">&#xf053;</button>
+        <button onclick="location.href='main.html'" class="fa" id="top-home">&#xf015;</button>
+        <span id="clock"></span>
+        <button class="fa" id="top-help" onclick="displayHelp()">&#xf059;</button>
+        <button class="fa" id="top-defi" onclick="displayDefinitions()">&#xf186;</button>
+      </div>
+      <div class="bottom" id="bottom-section">
+        <ul class="left-tabs">
+          <li onclick="leftTabClick(event)" class="fa active" id="tab-all">&#xf0ac;</li>
+          <li onclick="leftTabClick(event)" class="fa" id="tab-food">&#xf805;</li>
+          <li onclick="leftTabClick(event)" class="fa" id="tab-sleep">&#xf236;</li>
+          <li onclick="leftTabClick(event)" class="fa" id="tab-poi">&#xf19c;</li>
+        </ul>
+        <div class="tabs-main-section" id="div-all">
+        </div>
+        <div style="display: none" class="tabs-main-section" id="div-food"></div>
+        <div style="display: none" class="tabs-main-section" id="div-sleep"></div>
+        <div style="display: none" class="tabs-main-section" id="div-poi"></div>
+        <div style="bottom: 227px;" id="add-event">
+          <span class="category"></span>
+          <span>Event Description</span>
+          <textarea class="event-description" rows="1"></textarea>
+          <div class="fa listening" style="display: none;">&#xf130;</div>
+          <div class="add-warning"></div>
+          <div id="cenas-e-tal">
+            <select class="day-pick" name="day"></select>
+            <select class="hour-pick" name="hour"></select>
+            <span>:</span>
+            <select class="minute-pick" name="min"></select>
+          </div>
+          <div class="add-warning"></div>
+          <button onclick="addCancel(event)" class="add-big-button add-cancel">CANCEL</button>
+          <button onclick="addCalendarConfirm(event)" class="add-big-button add-confirm">CONFIRM</button>
+        </div>
+      </div>
+      <div class="bottom" id="help" style="bottom: 227px;">
+        <p>This is where you can see your friends' travelling suggestions. Click <span class="fa">&#xf0ac;</span> to see all of them, or sort them by food (<span class="fa" style="color: #6fffb6 !important">&#xf805;</span>), resting places (<span class="fa" style="color: #9191fb !important">&#xf236;</span>), or points of interest (<span class="fa" style="color: #ffd997 !important">&#xf19c;</span>).</p>
+        <p>Swipe left over one of the events to reveal more options.</p>
+        <p>Press <span class="fa">&#xf186;</span> to switch between light and dark mode!</p>
+      </div>
+    </div>
+  </body>
+</html>

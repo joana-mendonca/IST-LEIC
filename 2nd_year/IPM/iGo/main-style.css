@@ -1,0 +1,45 @@
+#bottom-section {
+  display: flex;
+  height: calc(100% - 25px);
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+}
+
+.big-button {
+  text-decoration: none;
+  color: var(--purple);
+  background-color: #e9f5ff;
+  border: 1px solid #004177;
+  border-radius: 5px;
+  width: calc(50% - 24px);
+  height: calc(50% - 24px);
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.big-button .button-name {
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+.big-button .button-symbol {
+  font-size: 26px;
+  margin-top: 9px;
+  text-shadow: none;
+}
+
+#navigation {
+  box-shadow: 0 0 10px #ffd997;
+}
+
+#suggestions {
+  box-shadow: 0 0 10px #6fffb6;
+}
+
+#planner {
+  box-shadow: 0 0 10px #9191fb;
+}

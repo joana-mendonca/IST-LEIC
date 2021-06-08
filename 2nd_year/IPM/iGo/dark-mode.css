@@ -1,0 +1,89 @@
+::-webkit-scrollbar-thumb {
+  background-color: rgba(256, 256, 256, .20) !important;
+}
+
+/** {
+  transition: color 1s,  background-color 1s, border-color 1s;
+}*/
+
+* {
+  border-color: #001c33 !important;
+  color: #6893ee;
+}
+
+#top-bar {
+  background-color: #212121;
+}
+
+#top-bar button {
+  color: #6893ee;
+}
+
+#top-bar button.inactive {
+  color: #424242 !important;
+}
+
+#bottom-section,
+.tabs-main-section,
+.left-tabs li.active,
+#calendar-tabs li.active,
+#div-add-calendar, #div-add-todo,
+#add-event {
+  background-color: #131313 !important;
+}
+
+.big-button {
+  box-shadow: none !important;
+  background-color: #3c3c3c;
+}
+
+.big-button > *, .calendar-help, .left-tabs li {
+  color: var(--color4);
+}
+
+.calendar-help, #todo-help,
+.todo-event  *,
+.calendar-event  *,
+#cenas-e-tal span,
+.sug-event span,
+#help * {
+  color: white !important;
+}
+
+#calendar-tabs,
+.left-tabs li {
+  background-color: #3c3c3c !important;
+}
+
+.todo-event input {
+  border-color: #6893ee !important;
+}
+
+.todo-event, .calendar-event {
+  border-color: #3e3e3e !important;
+}
+
+.event-description,
+.day-pick,
+.hour-pick,
+.minute-pick,
+.category-pick {
+  background-color: black;
+  color: white;
+}
+
+.add-cancel {
+  background-color: #7d1313;
+}
+
+.add-confirm {
+  background-color: #074e07;
+}
+
+#help {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+
+.notification {
+  background-color: rgba(27, 27, 27, 0.95) !important;
+}

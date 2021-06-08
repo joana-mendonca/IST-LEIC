@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main-style.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="dark-mode.css">
+    <link rel="stylesheet" type="text/css" href="scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="ubuntu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="main-js.js"></script>
+    <script type="text/javascript" src="common.js"></script>
+    <script type="text/javascript">loadColorScheme();</script>
+    <title>Main :: iGo</title>
+  </head>
+  <style type="text/css"></style>
+  <body onload="">
+    <div id="main-frame">
+      <div id="top-bar">
+        <button class="fa inactive" id="top-back">&#xf053;</button>
+        <button class="fa inactive" id="top-home">&#xf015;</button>
+        <span id="clock"></span>
+        <button class="fa" id="top-help" onclick="displayHelp()">&#xf059;</button>
+        <button class="fa" id="top-defi" onclick="displayDefinitions()">&#xf186;</button>
+      </div>
+      <div class="bottom" id="bottom-section">
+        <a href="suggestions.html" class="big-button" id="suggestions">
+          <span class="fa button-symbol">&#xf164;</span>
+          <span class="button-name">MySUGGESTIONS</span>
+        </a>
+        <a href="planner.html" class="big-button" id="planner">
+          <span class="fa button-symbol">&#xf783;</span>
+          <span class="button-name">MyPLANNER</span>
+        </a>
+        <a href="navigation.html" class="big-button" id="navigation">
+          <span class="fa button-symbol">&#xf4d7;</span>
+          <span class="button-name">MyNAVIGATION</span>
+        </a>
+      </div>
+      <div class="bottom" id="help" style="bottom: 227px;">
+        <p>Press <span class="fa">&#xf186;</span> to switch between light and dark mode!</p>
+      </div>
+    </div>
+  </body>
+</html>

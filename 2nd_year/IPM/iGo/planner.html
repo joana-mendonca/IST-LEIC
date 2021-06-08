@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="planner-style.css">
+    <link rel="stylesheet" type="text/css" href="common.css">
+    <link rel="stylesheet" type="text/css" href="dark-mode.css">
+    <link rel="stylesheet" type="text/css" href="scrollbar.css">
+    <link rel="stylesheet" type="text/css" href="ubuntu.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    <script type="text/javascript" src="jquery-ui.js"></script>
+    <script type="text/javascript" src="planner-js.js"></script>
+    <script type="text/javascript" src="common.js"></script>
+    <script type="text/javascript">loadColorScheme();</script>
+    <title>Planner :: iGo</title>
+  </head>
+  <style type="text/css"></style>
+  <body onload="loadStuff()">
+    <div id="main-frame">
+      <div id="top-bar">
+        <button class="fa inactive" id="top-back">&#xf053;</button>
+        <button onclick="location.href='main.html'" class="fa" id="top-home">&#xf015;</button>
+        <span id="clock"></span>
+        <button class="fa" id="top-help" onclick="displayHelp()">&#xf059;</button>
+        <button class="fa" id="top-defi" onclick="displayDefinitions()">&#xf186;</button>
+      </div>
+      <div class="bottom" id="bottom-section">
+        <ul class="left-tabs">
+          <li onclick="leftTabClick(event)" class="fa active" id="tab-calendar">&#xf133;</li>
+          <li onclick="leftTabClick(event)" class="fa" id="tab-todo">&#xf0ca;</li>
+          <!-- <li onclick="leftTabClick(event)" class="fa" id="tab-def">&#xf303;</li> -->
+        </ul>
+        <div class="tabs-main-section" id="div-calendar">
+          <div style="background-color: #a8c2fb; overflow: hidden;">
+            <ul id="calendar-tabs"></ul>
+          </div>
+          <button onclick="addShow(event)" class="fa add" id="add-calendar" onclick="">&#xf067;</button>
+          <div style="bottom: 227px;" id="div-add-calendar">
+            <span>Event Description</span>
+            <textarea class="event-description" rows="1"></textarea>
+            <div class="fa listening" style="display: none;">&#xf130;</div>
+            <div class="add-warning"></div>
+            <div id="cenas-e-tal">
+              <select class="day-pick" name="day"></select>
+              <select class="hour-pick" name="hour"></select>
+              <span>:</span>
+              <select class="minute-pick" name="min"></select>
+            </div>
+            <div class="add-warning"></div>
+            <div>
+              <select class="category-pick" name="cat" size="3">
+                <option value="poi">Point of Interest</option>
+                <option value="food">Food</option>
+                <option value="sleep">Sleep</option>
+                <option value="personal">Personal</option>
+              </select>
+            </div>
+            <button onclick="addCancel(event)" class="add-big-button add-cancel">CANCEL</button>
+            <button onclick="addCalendarConfirm(event)" class="add-big-button add-confirm">CONFIRM</button>
+          </div>
+        </div>
+        <div style="display: none" class="tabs-main-section" id="div-todo">
+          <button onclick="addShow(event)" class="fa add" id="add-todo" onclick="">&#xf067;</button>
+          <div style="bottom: 227px;" id="div-add-todo">
+            <span>Event Description</span>
+            <textarea class="event-description" rows="1"></textarea>
+            <div class="fa listening" style="display: none;">&#xf130;</div>
+            <div class="add-warning"></div>
+            <div>
+              <select class="category-pick" name="cat" size="3">
+                <option value="poi">Point of Interest</option>
+                <option value="food">Food</option>
+                <option value="sleep">Sleep</option>
+                <option value="personal">Personal</option>
+              </select>
+            </div>
+            <button onclick="addCancel(event)" class="add-big-button add-cancel">CANCEL</button>
+            <button onclick="addTodoConfirm(event)" class="add-big-button add-confirm">CONFIRM</button>
+          </div>
+          <div id="div-todo-sub-section">
+            <div id="todo-help">This is your to-to list! You can add things to it by clicking the plus sign below.</div>
+          </div>
+        </div>
+        <!-- <div style="bottom: 227px;" class="tabs-main-section" id="div-def"></div> -->
+      </div>
+      <div class="bottom" id="help" style="bottom: 227px;">
+        <p>This is your travel planner and to-do list. You can select them in the tabs on the left.<br/>For the planner, click <span class="fa">&#xf133;</span> .<br/>For the to-do list, click <span class="fa">&#xf0ca;</span> .</p>
+        <p>Swipe left over one of the events to reveal more options.</p>
+        <p>Press <span class="fa">&#xf186;</span> to switch between light and dark mode!</p>
+      </div>
+    </div>
+  </body>
+</html>

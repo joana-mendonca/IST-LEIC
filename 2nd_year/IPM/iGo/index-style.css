@@ -1,0 +1,21 @@
+body {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  height: 100vh;
+}
+
+#main-frame {
+  width: 227px;
+  height: 189px;
+  border: 3px solid black;
+  flex-shrink: 0;
+}
+
+.wrist-bands {
+  background-color: black;
+  width: 4cm;
+  flex-grow: 2;
+}
