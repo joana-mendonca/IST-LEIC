@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BD19/20 - Entrega 3 - TG20</title>
+  </head>
+  <style type="text/css">
+    body {
+      margin: 0;
+      background-color: black;
+      font-family: sans-serif;
+    }
+
+    body div {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+    }
+
+    body a {
+      text-shadow: 2px 2px 5px white;
+      width: 100%;
+      flex-grow: 1;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      color: black;
+      margin-top: 2px;
+      background-color: #aaaaaa;
+    }
+
+    body a:first-of-type {
+      margin: 0;
+    }
+
+    body a:hover {
+      background-color: #bbbbbb;
+    }
+  </style>
+  <body>
+    <div>
+      <a href="local_publico.php">Locais Públicos</a>
+      <a href="item.php">Itens</a>
+      <a href="anomalia.php">Anomalias</a>
+      <a href="proposta_de_correcao.php">Propostas de Correção</a>
+      <a href="utilizador.php">Utilizadores</a>
+      <a href="incidencia.php">Incidências e Duplicados</a>
+      <a href="anomalias_entre_locais.php">Anomalias entre dois locais públicos</a>
+      <a href="anomalias_em_area.php">Anomalias numa área em volta de um local nos últimos três meses</a>
+    </div>
+  </body>
+</html>
+
+<!-- a) Inserir e remover Locais, Itens, anomalias
+b) Inserir, editar e remover correcções e propostas de correcção.
+c) Listar utilizadores
+d) Registar incidências e duplicados
+e) Listar todas as anomalias de incidências registadas na área compreendida entre dois locais
+públicos
+f) Dados (X,Y) com (latitude, longitude) em graus expressos em notação decimal, listar todas as
+anomalias registadas nos últimos três meses a mais ou menos (dX, dY) graus de (latitude,
+longitude). -->
