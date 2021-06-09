@@ -8,7 +8,7 @@ Projects made for subjects in my Bachelor of Computer Science and Engineering at
 * [IAED - Introdução aos Algoritmos e Estruturas de Dados / Introduction to Algorithms and Data Structures (C)](https://github.com/J04N4/IST-LEIC/tree/main/1st_year/IAED)
 
 ### 2nd Year
-[comment]: < * [SO - Sistemas Operativos / Operating Systems (C)](2nd_Year/SO) >
+* [SO - Sistemas Operativos / Operating Systems (C)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/SO) 
 * [PO - Programação com Objectos / Object-Oriented Programming (Java)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/PO/ProjetoPO-master/)
 * [ASA - Análise e Sintese de Algoritmos / Analysis and Synthesis of Algorithms (C++)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/ASA)
 * [IPM - Interfaces Pessoa Máquina / Human-Computer Interaction (HTML/CSS/JS)](https://github.com/J04N4/IST-LEIC/tree/main/2nd_year/IPM/iGo/)
