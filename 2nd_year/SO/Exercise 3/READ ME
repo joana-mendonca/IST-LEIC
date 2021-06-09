@@ -1,0 +1,13 @@
+READ ME
+
+Quando executar testes, escrever /tmp/ antes do nome do socket 
+Exemplo: 
+No servidor: 
+make
+./tecnicofs-rwlock /tmp/socket output 1
+No cliente/api-tests/:  
+gcc -g client-api-test-create.c ../tecnicofs-client-api.c -o client
+./client /tmp/socket
+
+Este projeto assume que o numberBuckets é sempre igual a 1. Com isto, a hashTable tem apenas 1 entrada e o seu index é sempre igual a 0.
+

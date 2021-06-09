@@ -1,0 +1,14 @@
+# 8 creates, 1 lookup, 1 delete, 3 rename
+c a
+c b
+c c
+c d
+c e
+c f
+c g
+c h
+l e
+d c
+r a j
+r l m
+r f g
