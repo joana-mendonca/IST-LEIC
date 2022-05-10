@@ -17,8 +17,6 @@ management, to ensure your code runs using the correct components and not someon
 | Number | Name              | User                                   | Email                                                  |
 |--------|-------------------|----------------------------------------|--------------------------------------------------------|
 | 83597  | Joana Mendonça    | <https://github.com/J04N4>             | <mailto:joana.quintanilha.mendonca@tecnico.ulisboa.pt> |
-| 96961  | Tomás Paiva       | <https://github.com/TmsPaiva>          | <mailto:tomas.paiva@tecnico.ulisboa.pt>                |
-| 96891  | Madalena Martins  | <https://github.com/madalena-pmartins> | <mailto:madalenaparreiramartins@tecnico.ulisboa.pt>    |
 
 
 ## Getting Started
