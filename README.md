@@ -1,5 +1,5 @@
-# Licenciatura em Engenharia Informática e de Computadores - Instituto Superior Técnico
-Projects made for subjects in my Bachelor of Computer Science and Engineering at Instituto Superior Técnico, Taguspark.
+# Bachelor in Computer Science and Engineering
+Projects made during my degree.
 
 ### 1st Year
 * [FP - Fundamentos da Programação / Foundations of Programming (Python)](https://github.com/J04N4/IST-LEIC/tree/main/1st_year/FP)
